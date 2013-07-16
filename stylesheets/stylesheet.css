@@ -12,7 +12,7 @@ body{
 .page_title {
   font-size: 48px;
   vertical-align: top;  
-  margin: 0px;
+  margin: 0;
   /*text-transform: uppercase;*/
 }
 
@@ -36,7 +36,6 @@ body{
 .page_subtitle li {
   list-style-type: none;
   display: inline-block;
-  margin-right: 10px;
   margin-bottom: 5px;
 }
 
@@ -44,6 +43,8 @@ body{
   content:"|";
   margin-left: 10px;
 }
+
+
 
 .page_subtitle li:nth-of-type(5):after {
   content:"";
@@ -87,13 +88,22 @@ body{
   line-height: 1.7em;
 }
 
-.section-content li {
-  list-style-type: none;
-  margin-bottom: 5px;
-  padding-left: 20px;
+.section-content ul {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-.section-content li:before {
+.section-content li {
+  list-style-type: square;
+  margin-bottom: 5px;
+  font-size: 1em;
+}
+
+.section-content p {
+  margin-top: 0;
+}
+
+/*.section-content li:before {
   position: relative;
   right: 15px;
   content: "-";
@@ -103,9 +113,34 @@ body{
 .section-content li:first-line{
   position: relative;
   padding-left: -25px;
-}
+}*/
 
 
 i {
   margin-right: 10px;
+}
+
+gray {
+  color: #444;
+}
+
+.light_gray {
+  color: #777;
+  font-weight: 300;
+}
+
+.lightest_gray {
+  color: #bbb;
+  font-weight: 100;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.skill {
+  margin-left: 28px;
+  margin-top: 0;
+  margin-bottom: 5px;
 }
