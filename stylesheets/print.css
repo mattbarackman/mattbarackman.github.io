@@ -1,0 +1,25 @@
+@media print {
+
+  .title {
+    font-size: 72px;
+  }
+
+  .title h1 {
+    vertical-align: top;  
+    margin: 0px;
+    color: #450E3D;
+  }
+
+  .container_12 {
+    margin-top: 40px;
+  }
+
+  .dates {
+    text-align: right;
+  }
+
+  .section-header {
+    text-align: right;
+  }
+
+}
