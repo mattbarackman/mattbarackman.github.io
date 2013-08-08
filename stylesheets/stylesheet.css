@@ -9,11 +9,24 @@ body{
   color: #222;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #AB2297;
+}
+
 .page_title {
   font-size: 48px;
   vertical-align: top;  
   margin: 0;
-  /*text-transform: uppercase;*/
+}
+
+.page_title a:hover {
+  text-decoration: none;
 }
 
 #first_name {
