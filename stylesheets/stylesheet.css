@@ -20,8 +20,8 @@ a:hover {
 }
 
 .page_title {
-  font-size: 48px;
-  vertical-align: top;  
+  font-size: 24px;
+  vertical-align: top;
   margin: 0;
 }
 
@@ -49,7 +49,7 @@ a:hover {
 .page_subtitle li {
   list-style-type: none;
   display: inline-block;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
 }
 
 .page_subtitle li:after {
@@ -76,7 +76,7 @@ a:hover {
 }
 
 .container_12 {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .dates {
@@ -84,7 +84,7 @@ a:hover {
 }
 
 .section-header {
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 .section-title {
@@ -95,10 +95,10 @@ a:hover {
   color: #444;
 }
 .section-content {
-  margin-top: 15px;
-  margin-bottom: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   color: #666;
-  line-height: 1.7em;
+  line-height: 1.5em;
 }
 
 .section-content ul {
@@ -149,7 +149,7 @@ gray {
 
 h5 {
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .skill {
