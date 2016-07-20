@@ -41,7 +41,7 @@ a:hover {
 
 
 .page_subtitle ul {
-  padding-left: 5px;
+  padding-left: 0px;
   color: #444;
   margin: 0;
 }
@@ -55,6 +55,7 @@ a:hover {
 .page_subtitle li:after {
   content:"|";
   margin-left: 10px;
+  margin-right: 5px;
 }
 
 
