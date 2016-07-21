@@ -19,6 +19,11 @@ a:hover {
   color: #AB2297;
 }
 
+h1 {
+  color: #450E3D;
+  font-weight: 900;
+}
+
 .page_title {
   font-size: 24px;
   vertical-align: top;
@@ -28,17 +33,6 @@ a:hover {
 .page_title a:hover {
   text-decoration: none;
 }
-
-#first_name {
-  color: #450E3D;
-  font-weight: 900;
-}
-
-#last_name {
-  color: #450E3D;
-  font-weight: lighter;
-}
-
 
 .page_subtitle ul {
   padding-left: 0px;
