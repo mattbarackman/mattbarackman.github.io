@@ -52,6 +52,9 @@ h1 {
   margin-right: 5px;
 }
 
+.section-content.summary-content {
+  margin-top: 0;
+}
 
 
 .page_subtitle li:nth-of-type(5):after {
@@ -61,7 +64,7 @@ h1 {
 }
 
 .page_subtitle {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 .page_title h1 {
@@ -80,10 +83,10 @@ h1 {
 
 .section-header {
   font-size: 1.2em;
+  margin-top: 5px;
 }
 
 .section-title {
-  margin-bottom: 5px;
   font-size: 1em;
 }
 .sub-title {
